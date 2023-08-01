@@ -1,6 +1,6 @@
 ---
 - name: Show Hostname
-  hosts: Homolog
+  hosts: all
 
   tasks:
     - name: Exibir Hostname
