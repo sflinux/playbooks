@@ -1,0 +1,8 @@
+---
+- name: Show Hostname
+  hosts: all
+
+  tasks:
+    - name: Exibir Hostname
+      debug:
+        msg: "O hostname do servidor é {{ ansible_hostname }}"
